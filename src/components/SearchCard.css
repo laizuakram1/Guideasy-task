@@ -1,0 +1,4 @@
+.stat:hover{
+    background-color:rgb(238, 248, 253);
+    transition:all 0.4s;
+}
