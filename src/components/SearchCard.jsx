@@ -1,13 +1,15 @@
 import React from 'react';
 import {IoIosArrowDown} from 'react-icons/io'
+import {TbArrowsExchange} from 'react-icons/tb'
 import '../components/SearchCard.css'
 
 const SearchCard = () => {
   return (
     <div className='bg-base-200'>
       <div className="hero min-h-screen bg-base-200">
-        <div className="hero-content text-center">
+        <div className="hero-content text-center relative">
           <div className="w-full">
+          <TbArrowsExchange className='arrow-icons'/>
           <div className="stats shadow cursor-pointer">
             
             {/* from state */}
